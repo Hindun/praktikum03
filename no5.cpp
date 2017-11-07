@@ -12,4 +12,9 @@ int main()
 	u = tinggi/2.5;
 	o = tinggi/2.3;
 	if (berat < u)
+	
+	{
+		cout<<"Underweight";
+	}
+	else if (berat>=u && berat<=o)
 }
